@@ -1,0 +1,28 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "luncert",
+                "projectName": "luncert",
+                "workingDirectory": "/home/lijingwei/github/mobileai-p1/web",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "luncert",
+                "projectName": "luncert",
+                "workingDirectory": "/home/lijingwei/github/mobileai-p1/web",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}

@@ -33,15 +33,16 @@ def dbAccess():
     from py2neo import Graph, Node, Relationship
     def output(node, p_node):
         for item in node['children']:
-            c_node = Node(name = item['name'], id = item['id'])
-            c_node.add_label(item['type'])
+            c_node = Node(name = item['name'], id = item['id'], eventType = item['type'])
+            c_node.add_label('Event')
             graph.create(c_node)
-            graph.create(Relationship(p_node, 'ParentOf', c_node))
+            # (child)-[r:Derivation]->(parent)
+            graph.create(Relationship(c_node, 'Derivation', p_node))
             output(item, c_node)
-    graph = Graph("http://101.200.37.220:7474",username = "neo4j",password = "Luncert428")
+    graph = Graph("http://luncert.cn:7474",username = "neo4j",password = "Luncert428")
     for item in tree:
-        p_node = Node(name = item['name'], id = item['id'])
-        p_node.add_label(item['type'])
+        p_node = Node(name = item['name'], id = item['id'], sceneType = item['type'])
+        p_node.add_label('Scene')
         graph.create(p_node)
         output(item, p_node)
 
@@ -82,4 +83,5 @@ for item in x.children:
         tranverse(item.div.span, node)
     else:beFirst = False
 
+# outputTree(tree)
 dbAccess()

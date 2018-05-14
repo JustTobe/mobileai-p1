@@ -1,62 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mobileai.AppTest" time="0.027" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="com.mobileai.AppTest" time="0.002" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="sun.desktop" value="gnome"/>
-    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="sun.cpu.isalist" value=""/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/lijingwei/github/mobileai-p1/luncert/target/test-classes:/home/lijingwei/github/mobileai-p1/luncert/target/classes:/home/lijingwei/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/lijingwei/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/lijingwei/.m2/repository/org/apache/storm/storm-core/0.9.6/storm-core-0.9.6.jar:/home/lijingwei/.m2/repository/org/clojure/clojure/1.5.1/clojure-1.5.1.jar:/home/lijingwei/.m2/repository/clj-time/clj-time/0.4.1/clj-time-0.4.1.jar:/home/lijingwei/.m2/repository/joda-time/joda-time/2.0/joda-time-2.0.jar:/home/lijingwei/.m2/repository/compojure/compojure/1.1.3/compojure-1.1.3.jar:/home/lijingwei/.m2/repository/org/clojure/core.incubator/0.1.0/core.incubator-0.1.0.jar:/home/lijingwei/.m2/repository/org/clojure/tools.macro/0.1.0/tools.macro-0.1.0.jar:/home/lijingwei/.m2/repository/clout/clout/1.0.1/clout-1.0.1.jar:/home/lijingwei/.m2/repository/ring/ring-core/1.1.5/ring-core-1.1.5.jar:/home/lijingwei/.m2/repository/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1.jar:/home/lijingwei/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/home/lijingwei/.m2/repository/hiccup/hiccup/0.3.6/hiccup-0.3.6.jar:/home/lijingwei/.m2/repository/ring/ring-devel/0.3.11/ring-devel-0.3.11.jar:/home/lijingwei/.m2/repository/clj-stacktrace/clj-stacktrace/0.2.2/clj-stacktrace-0.2.2.jar:/home/lijingwei/.m2/repository/ring/ring-jetty-adapter/0.3.11/ring-jetty-adapter-0.3.11.jar:/home/lijingwei/.m2/repository/ring/ring-servlet/0.3.11/ring-servlet-0.3.11.jar:/home/lijingwei/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/home/lijingwei/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/home/lijingwei/.m2/repository/org/clojure/tools.logging/0.2.3/tools.logging-0.2.3.jar:/home/lijingwei/.m2/repository/org/clojure/math.numeric-tower/0.0.1/math.numeric-tower-0.0.1.jar:/home/lijingwei/.m2/repository/org/clojure/tools.cli/0.2.4/tools.cli-0.2.4.jar:/home/lijingwei/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/home/lijingwei/.m2/repository/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar:/home/lijingwei/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar:/home/lijingwei/.m2/repository/com/twitter/carbonite/1.4.0/carbonite-1.4.0.jar:/home/lijingwei/.m2/repository/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar:/home/lijingwei/.m2/repository/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07-shaded.jar:/home/lijingwei/.m2/repository/org/ow2/asm/asm/4.0/asm-4.0.jar:/home/lijingwei/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar:/home/lijingwei/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar:/home/lijingwei/.m2/repository/com/twitter/chill-java/0.3.5/chill-java-0.3.5.jar:/home/lijingwei/.m2/repository/org/yaml/snakeyaml/1.11/snakeyaml-1.11.jar:/home/lijingwei/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/home/lijingwei/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/home/lijingwei/.m2/repository/com/googlecode/disruptor/disruptor/2.10.4/disruptor-2.10.4.jar:/home/lijingwei/.m2/repository/org/jgrapht/jgrapht-core/0.9.0/jgrapht-core-0.9.0.jar:/home/lijingwei/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar:/home/lijingwei/.m2/repository/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar:/home/lijingwei/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/home/lijingwei/.m2/repository/org/slf4j/log4j-over-slf4j/1.6.6/log4j-over-slf4j-1.6.6.jar:/home/lijingwei/.m2/repository/jline/jline/2.11/jline-2.11.jar:/home/lijingwei/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.161-b12"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="sun.arch.data.model" value="64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/lijingwei/github/mobileai-p1"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="user.timezone" value=""/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="os.name" value="Linux"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/lijingwei/github/mobileai-p1/luncert/target/surefire/surefirebooter161901193857092469.jar /home/lijingwei/github/mobileai-p1/luncert/target/surefire 2018-05-07T18-12-12_930-jvmRun1 surefire7117289002555080744tmp surefire_05328347665321319167tmp"/>
-    <property name="surefire.test.class.path" value="/home/lijingwei/github/mobileai-p1/luncert/target/test-classes:/home/lijingwei/github/mobileai-p1/luncert/target/classes:/home/lijingwei/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/lijingwei/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/lijingwei/.m2/repository/org/apache/storm/storm-core/0.9.6/storm-core-0.9.6.jar:/home/lijingwei/.m2/repository/org/clojure/clojure/1.5.1/clojure-1.5.1.jar:/home/lijingwei/.m2/repository/clj-time/clj-time/0.4.1/clj-time-0.4.1.jar:/home/lijingwei/.m2/repository/joda-time/joda-time/2.0/joda-time-2.0.jar:/home/lijingwei/.m2/repository/compojure/compojure/1.1.3/compojure-1.1.3.jar:/home/lijingwei/.m2/repository/org/clojure/core.incubator/0.1.0/core.incubator-0.1.0.jar:/home/lijingwei/.m2/repository/org/clojure/tools.macro/0.1.0/tools.macro-0.1.0.jar:/home/lijingwei/.m2/repository/clout/clout/1.0.1/clout-1.0.1.jar:/home/lijingwei/.m2/repository/ring/ring-core/1.1.5/ring-core-1.1.5.jar:/home/lijingwei/.m2/repository/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1.jar:/home/lijingwei/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/home/lijingwei/.m2/repository/hiccup/hiccup/0.3.6/hiccup-0.3.6.jar:/home/lijingwei/.m2/repository/ring/ring-devel/0.3.11/ring-devel-0.3.11.jar:/home/lijingwei/.m2/repository/clj-stacktrace/clj-stacktrace/0.2.2/clj-stacktrace-0.2.2.jar:/home/lijingwei/.m2/repository/ring/ring-jetty-adapter/0.3.11/ring-jetty-adapter-0.3.11.jar:/home/lijingwei/.m2/repository/ring/ring-servlet/0.3.11/ring-servlet-0.3.11.jar:/home/lijingwei/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/home/lijingwei/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/home/lijingwei/.m2/repository/org/clojure/tools.logging/0.2.3/tools.logging-0.2.3.jar:/home/lijingwei/.m2/repository/org/clojure/math.numeric-tower/0.0.1/math.numeric-tower-0.0.1.jar:/home/lijingwei/.m2/repository/org/clojure/tools.cli/0.2.4/tools.cli-0.2.4.jar:/home/lijingwei/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/home/lijingwei/.m2/repository/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar:/home/lijingwei/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar:/home/lijingwei/.m2/repository/com/twitter/carbonite/1.4.0/carbonite-1.4.0.jar:/home/lijingwei/.m2/repository/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar:/home/lijingwei/.m2/repository/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07-shaded.jar:/home/lijingwei/.m2/repository/org/ow2/asm/asm/4.0/asm-4.0.jar:/home/lijingwei/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar:/home/lijingwei/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar:/home/lijingwei/.m2/repository/com/twitter/chill-java/0.3.5/chill-java-0.3.5.jar:/home/lijingwei/.m2/repository/org/yaml/snakeyaml/1.11/snakeyaml-1.11.jar:/home/lijingwei/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/home/lijingwei/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/home/lijingwei/.m2/repository/com/googlecode/disruptor/disruptor/2.10.4/disruptor-2.10.4.jar:/home/lijingwei/.m2/repository/org/jgrapht/jgrapht-core/0.9.0/jgrapht-core-0.9.0.jar:/home/lijingwei/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar:/home/lijingwei/.m2/repository/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar:/home/lijingwei/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/home/lijingwei/.m2/repository/org/slf4j/log4j-over-slf4j/1.6.6/log4j-over-slf4j-1.6.6.jar:/home/lijingwei/.m2/repository/jline/jline/2.11/jline-2.11.jar:/home/lijingwei/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/home/lijingwei"/>
-    <property name="user.language" value="en"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
-    <property name="basedir" value="/home/lijingwei/github/mobileai-p1/luncert"/>
-    <property name="file.separator" value="/"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/lijingwei/github/mobileai-p1/luncert"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/lijingwei/github/mobileai-p1/luncert/target/surefire/surefirebooter161901193857092469.jar"/>
-    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="1.8.0_161-b12"/>
-    <property name="user.name" value="lijingwei"/>
-    <property name="path.separator" value=":"/>
-    <property name="os.version" value="4.13.0-39-generic"/>
-    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="/home/lijingwei/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="1.8.0_161"/>
-    <property name="user.dir" value="/home/lijingwei/github/mobileai-p1/luncert"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
-    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/local/Trolltech/Qt-4.8.1/lib::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.161-b12"/>
-    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.13.0-41-generic"/>
+    <property name="user.home" value="/home/lijingwei"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="lijingwei"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.mobileai.AppTest" time="0.001"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.mobileai.AppTest" time="0.002"/>
 </testsuite>
