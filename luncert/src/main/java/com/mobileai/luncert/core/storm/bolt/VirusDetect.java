@@ -30,6 +30,7 @@ public class VirusDetect extends BaseRichBolt {
 
 	@Override
 	public void execute(Tuple input) {
+		/*
 		if ((int)input.getValue(0) == MatchResult.MATCH_FAILED_ALERT) {
 			// 取出上次被攻击后的所有事件记录
 			SqlSession session = MySQLUtil.open();
@@ -42,8 +43,8 @@ public class VirusDetect extends BaseRichBolt {
 			
 			// 交由KnowledgeGraph学习
 			graph.learn(records);
-			
 		}
+		*/
 	}
 
 	@Override
